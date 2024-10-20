@@ -1,0 +1,35 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "project inspired by YouTube",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshakp06/vidtube.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo"
+  ],
+  "author": "harshakp06",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshakp06/vidtube/issues"
+  },
+  "homepage": "https://github.com/harshakp06/vidtube#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
